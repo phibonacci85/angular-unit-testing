@@ -1,0 +1,16 @@
+<div>
+    <h3>{{subject}}</h3>
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>{{ title }}</mat-card-title>
+      </mat-card-header>
+      <ngx-prism [language]="'javascript'">
+        {{ code }}
+      </ngx-prism>
+      <mat-card-content>
+        <p>
+          {{ description }}
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </div>

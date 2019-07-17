@@ -1,0 +1,32 @@
+
+mat-sidenav-container {
+  position: absolute;
+  top: 60px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+mat-sidenav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+}
+
+mat-toolbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+mat-sidenav-content {
+  padding: 1rem 2rem;
+  color: rgb(75, 75, 75);
+}
+
+// router-outlet {
+//   margin: 4rem 4rem;
+// }
