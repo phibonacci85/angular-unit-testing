@@ -1,3 +1,4 @@
 <div>
-  <app-code-sample [title]="Suite" [code]="" [description]=""></app-code-sample>
+  <h3>Suite</h3>
+  <app-code-sample *ngFor="let sample of content.suite" [title]="sample.title" [code]="sample.code" [description]="sample.description"></app-code-sample>
 </div>
